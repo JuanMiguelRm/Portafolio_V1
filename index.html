@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Digital</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <span> Juan Miguel Riquett M | Ingeniero de Sistemas </span>
+        </div>
+        <nav>
+            <a href="#" class="active">Inicio</a>
+            <a href="#" id="toggle-about">Acerca de mí</a>
+            <a href="https://github.com/JuanMiguelRm?tab=repositories" target="_blank">Visitar portafolio</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="text-content">
+            <h1 class="fade-in">Bienvenidos</h1>
+            <p class="fade-in">
+                "Soy un estudiante de Ingenieria de Sistemas apasionado por el desarrollo de soluciones
+                tecnológicas innovadoras. Me especializo en desarrollo web, aplicaciones
+                móviles y gestión de bases de datos."
+            </p>
+            <p class="fade-in">- Transformando ideas en soluciones digitales</p>
+
+            <button onclick="window.open('CV_JuanMiguelRiquettM.pdf', '_blank')" class="btn-anim">Descargar CV</button>            <div class="info fade-in">
+                <span class="material-icons-outlined">location_on</span>Pamplona, NS.
+                Colombia
+            </div>
+        </div>
+        <div class="image-content">
+            <img src="Inicio.png" class="img-anim" />
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>Desarrollador Frontend y Análisis de Datos</h2>
+        <p>
+            Combinando diseño y análisis para construir soluciones digitales inteligentes.
+        </p>
+    </section>
+
+    <!-- Sección "Acerca de mí" (oculta inicialmente) -->
+    <section id="about-me" class="about-me">
+        <h2>Acerca de mí</h2>
+        <div class="about-content">
+            <div class="personal-info fade-in">
+                <h3>Juan Miguel Riquett Mercado</h3>
+
+                <p>
+                    Soy un desarrollador web front-end apasionado por la programación en busca de nuevos desafíos. Me
+                    encanta aprender y crecer en el campo de la programación, manteniéndome actualizado sobre las
+                    últimas tendencias y mejores prácticas.
+                </p>
+
+                <h3 class="spacing_top">
+                    Mis habilidades incluyen
+                    <p>
+                        HTML, CSS, JavaScript, React, TypeScript, Tailwind CSS, Sass, Firebase,
+                        Supabase, NextJS, Node y Figma.
+                    </p>
+                </h3>
+
+                <p class="spacing_top">
+                    Si estás buscando un desarrollador front-end entusiasta y orientado a resultados, estaré encantado
+                    de formar parte de tu equipo.
+                </p>
+
+                <p class="spacing_top">
+                    <strong>Contacto:</strong> juanmiguelriquett2@gmail.com | Tel: +57 |
+                    Pamplona, NS. Colombia
+                </p>
+
+                <p>
+                    <strong>LinkedIn:</strong>
+                    <a href="https://www.linkedin.com/in/juanmiguelrm/" target="_blank">JuanMiguelRm</a>
+                </p>
+            </div>
+
+
+            <div class="education fade-in">
+                <h3>Formación académica</h3>
+                <ul>
+                    <li>
+                        <h4>Ingenieria de Sistemas</h4>
+                        <p>
+                            <em>Universidad De Pamplona</em> | Septiembre 2020
+                            - Actualidad
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Técnico en Sistemas</h4>
+                        <p>
+                            <em>Servicio Nacional de Aprendizaje (SENA)</em> | Enero 2018 -
+                            Diciembre 2019
+                        </p>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="projects fade-in">
+                <h3>Proyectos</h3>
+                <ul>
+                    <li>
+                        <h4>MediClassify</h4>
+                        <p>Clasificación de Imagenes Medicas</p>
+                        <p><em>Python, Redes CNN, Modelos de IA</em></p>
+                        <a href="https://github.com/JuanMiguelRm/MediClassify-Sistema-de-Clasificaci-n-de-Im-genes-M-dicas"
+                            target="_blank">Visitar sitio del proyecto</a>
+                    </li>
+                    <li>
+                        <h4>Fake E-Comerce Fast Food</h4>
+                        <p><em>HTML, CSS, JavaScript</em></p>
+                        <a href="https://github.com/JuanMiguelRm/Ecomerce-FastFood" target="_blank">Visitar sitio del proyecto</a>
+                    </li>
+                    <li>
+                        <h4>Fake E-Comerce Fast Food, Angular Version</h4>
+                        <p>Angular</p>
+                        <a href="https://github.com/JuanMiguelRm/Angular-Ecomerce" target="_blank">Visitar sitio del proyecto</a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <div class="experience fade-in">
+                <h3>Experiencia laboral</h3>
+                <ul>
+                    <li>
+                        <h4>Estratega Digital - Allegro Saludable</h4>
+                        <p><em>Abril 2020 - Febrero 2021</em></p>
+                        <p>
+                            Diseño e implementación de identidad gráfica, estrategia digital
+                            para Meta ads y crecimiento orgánico.
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Full Stack Developer - CAEP México</h4>
+                        <p><em>Febrero 2022 - Mayo 2022</em></p>
+                        <p>Desarrollo de página web con Angular, Bootstrap y Firebase.</p>
+                    </li>
+                    <li>
+                        <h4>Diseñador Gráfico - Grupo SIA</h4>
+                        <p><em>Julio 2022 - Diciembre 2022</em></p>
+                        <p>
+                            Marketing y rediseño de marca, creación de manual de identidad.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="skill-category fade-in">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skill-category">
+                <h4>Lenguajes de programación</h4>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <i class="devicon-html5-plain colored"></i>
+                        <div class="skill-info">
+                            <span class="skill-name">HTML5</span>
+                            <span class="skill-level">Nivel: Avanzado</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-css3-plain colored"></i>
+                        <div class="skill-info">
+                            <span class="skill-name">CSS3</span>
+                            <span class="skill-level">Nivel: Avanzado</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-level">Nivel: Intermedio-Avanzado</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-typescript-plain colored"></i>
+                        <div class="skill-info">
+                            <span class="skill-name">TypeScript</span>
+                            <span class="skill-level">Nivel: Intermedio</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-python-plain colored"></i>
+                        <div class="skill-info">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-level">Nivel: Intermedio</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-mysql-plain colored"></i>
+                        <div class="skill-info">
+                            <span class="skill-name">SQL</span>
+                            <span class="skill-level">Nivel: Intermedio</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-dart-plain colored"></i>
+                        <div class="skill-info">
+                            <span class="skill-name">Dart</span>
+                            <span class="skill-level">Nivel: Básico-Intermedio</span>
+                        </div>
+                    </div>
+                    <!-- Nuevos lenguajes añadidos -->
+                    <div class="skill-item">
+                        <i class="devicon-java-plain colored"></i>
+                        <div class="skill-info">
+                            <span class="skill-name">Java</span>
+                            <span class="skill-level">Nivel: Intermedio</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-cplusplus-plain colored"></i>
+                        <div class="skill-info">
+                            <span class="skill-name">C++</span>
+                            <span class="skill-level">Nivel: Básico</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-php-plain colored"></i>
+                        <div class="skill-info">
+                            <span class="skill-name">PHP</span>
+                            <span class="skill-level">Nivel: Básico-Intermedio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h4>Frameworks y Bibliotecas</h4>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <i class="devicon-angularjs-plain colored"></i>
+                        <div class="skill-info">
+                            <span class="skill-name">Angular</span>
+                            <span class="skill-level">Nivel: Intermedio</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-react-original colored"></i>
+                        <div class="skill-info">
+                            <span class="skill-name">React</span>
+                            <span class="skill-level">Nivel: Básico-Intermedio</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-angularjs-plain colored"></i>
+                        <div class="skill-info">
+                            <span class="skill-name">Angular</span>
+                            <span class="skill-level">Nivel: Básico-Intermedio</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-bootstrap-plain colored"></i>
+                        <div class="skill-info">
+                            <span class="skill-name">Bootstrap</span>
+                            <span class="skill-level">Nivel: Avanzado</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-ionic-original colored"></i>
+                        <div class="skill-info">
+                            <span class="skill-name">Ionic</span>
+                            <span class="skill-level">Nivel: Intermedio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
